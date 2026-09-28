@@ -19,21 +19,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # GITHUB_TOKEN solo alcanza a este repo, no a las estadísticas del usuario
+      # ("Resource not accessible by integration"), así que hace falta un PAT.
       - name: Tarjeta de estadísticas
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&locale=es
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
+          fail_on_error: true
 
       - name: Tarjeta de lenguajes
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&locale=es
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
+          fail_on_error: true
 
       - name: Guardar tarjetas en el repo
         run: |
