@@ -196,21 +196,14 @@ Cursos relevantes: Sistemas Operativos, Microprocesadores, Arquitectura de Siste
 
 ## 📊 Telemetría
 
+<!-- Las tarjetas de /profile las genera .github/workflows/stats.yml todos los días -->
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=dannn-36&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Estadísticas de GitHub"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dannn-36&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados"/>
+  <img height="165" src="./profile/stats.svg" alt="Estadísticas de GitHub"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Lenguajes más usados"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=dannn-36&theme=tokyonight&hide_border=true" alt="Racha de contribuciones"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dannn-36&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trofeos"/>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=dannn-36&theme=tokyo-night&hide_border=true&area=true" alt="Gráfica de actividad"/>
+  <img src="https://streak-stats.demolab.com?user=dannn-36&theme=tokyonight&hide_border=true&locale=es" alt="Racha de contribuciones"/>
 </p>
 
 ---
@@ -226,10 +219,6 @@ Cursos relevantes: Sistemas Operativos, Microprocesadores, Arquitectura de Siste
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Frase aleatoria de programación"/>
-</p>
 
 <p align="center">
   <code>while (alive) { eat(); sleep(); code(); repeat(); }</code><br/>
