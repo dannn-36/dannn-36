@@ -64,7 +64,7 @@ struct Daniel {
     [[nodiscard]] constexpr bool es_legendario() const noexcept { return true; }
 };
 
-static_assert(Daniel{}.es_legendario(), "imposible, revisa tu compilador");
+static_assert(Daniel{}.daniel(), "imposible, revisa tu compilador");
 ```
 
 - 🏭 Mi software de órdenes de servicio e inspección vehicular corre en **18 Centros de Diagnóstico Automotor**.
