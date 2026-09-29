@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A277FF&center=true&vCenter=true&width=650&lines=%3E+Hola%2C+soy+Daniel+Villamil+%F0%9F%91%BD;%3E+C%2B%2B+%7C+Embebidos+%7C+Alto+rendimiento;%3E+Escribo+motores%2C+compiladores+y+firmware;%3E+Assembly+no+me+da+miedo+(bueno%2C+un+poco);%3E+%E4%BD%A0%E5%A5%BD%EF%BC%81+(HSK+1+desbloqueado)" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A277FF&center=true&vCenter=true&width=650&lines=%3E+Hola%2C+soy+Daniel+Villamil+%F0%9F%91%BD;%3E+C%2B%2B+%7C+Embebidos+%7C+Alto+rendimiento;%3E+Escribo+motores%2C+compiladores+y+firmware;%3E+Assembly;%3E+%E4%BD%A0%E5%A5%BD%EF%BC%81" alt="Typing SVG"/>
 </p>
 
 <p align="center">
