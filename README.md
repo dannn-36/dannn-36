@@ -48,6 +48,7 @@ struct Daniel {
     std::string_view ubicacion   = "Bogotá, Colombia 🇨🇴";
     std::string_view universidad = "Universidad El Bosque — Ing. de Sistemas (2027)";
     std::string_view trabajo     = "Ingeniero de Software @ TechIQ SAS";
+    std::string_view sistema     = "Void Linux";
 
     std::array<std::string_view, 5> stack {
         "C++20", "C", "Python", "C#", "Assembly x86/ARM"
@@ -71,6 +72,7 @@ static_assert(Daniel{}.daniel(), "imposible, revisa tu compilador");
 - 🐝 Estoy construyendo **HoneyComb Engine**, un motor isométrico 2.5D con runtime nativo en C++.
 - 🔌 Hago que redes neuronales quepan en un **ESP32-CAM**, donde cada kilobyte cuenta.
 - 🧠 Escribí un analizador estático que te dice cuánta energía gasta tu código **antes** de ejecutarlo.
+- 👽 Métele linux
 
 ---
 
